@@ -83,11 +83,11 @@ PING_IMG_URL = getenv(
     "https://images.app.goo.gl/sZchWhFinM1vb4Bs9",
 )
 
-PLAYLIST_IMG_URL = "https://apkdone.com/wp-content/uploads/2020/10/Wynk-Music-poster.jpg"
+PLAYLIST_IMG_URL = "https://images.app.goo.gl/rcNY1uNxT7BtMZz89"
 
-GLOBAL_IMG_URL = "https://apkdone.com/wp-content/uploads/2020/10/Wynk-Music-poster.jpg"
+GLOBAL_IMG_URL = "https://images.app.goo.gl/rcNY1uNxT7BtMZz89"
 
-STATS_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTerDS_Y-E21fTDJHNcpkuUHEA152aQUUxvcQ&usqp=CAU"
+STATS_IMG_URL = "https://images.app.goo.gl/rcNY1uNxT7BtMZz89"
 
 TELEGRAM_AUDIO_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTerDS_Y-E21fTDJHNcpkuUHEA152aQUUxvcQ&usqp=CAU"
 
