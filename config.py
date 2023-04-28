@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shakedeal.com%2Fjiosaavn-rs-99-instant-gift-voucher-dp1&psig=AOvVaw1ISfX_Ero04tgcU10KtxfW&ust=1682768584536000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCICbwdC_zP4CFQAAAAAdAAAAABAo")
+START_IMG_URL = getenv("START_IMG_URL", "https://images.app.goo.gl/73DLNXW5tahVKoXM9")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.jagran.com%2Ftechnology%2Fapps-jiomusic-becomes-jiosaavn-online-music-streaming-app-users-can-access-90-days-free-unlimited-music-18713125.html&psig=AOvVaw1ISfX_Ero04tgcU10KtxfW&ust=1682768584536000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjWtZLAzP4CFQAAAAAdAAAAABA4",
+    "https://images.app.goo.gl/sZchWhFinM1vb4Bs9",
 )
 
 PLAYLIST_IMG_URL = "https://apkdone.com/wp-content/uploads/2020/10/Wynk-Music-poster.jpg"
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.jagran.com%2Ftechnology%2Fapps-jiomusic-becomes-jiosaavn-online-music-streaming-app-users-can-access-90-days-free-unlimited-music-18713125.html&psig=AOvVaw1ISfX_Ero04tgcU10KtxfW&ust=1682768584536000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjWtZLAzP4CFQAAAAAdAAAAABA4"
+            PING_IMG_URL = "https://images.app.goo.gl/sZchWhFinM1vb4Bs9"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shakedeal.com%2Fjiosaavn-rs-99-instant-gift-voucher-dp1&psig=AOvVaw1ISfX_Ero04tgcU10KtxfW&ust=1682768584536000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCICbwdC_zP4CFQAAAAAdAAAAABAo"
+            START_IMG_URL = "https://images.app.goo.gl/73DLNXW5tahVKoXM9"
